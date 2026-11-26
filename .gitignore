@@ -1,0 +1,8 @@
+# Ignora le cartelle di configurazione e compilazione di CLion
+.idea/
+cmake-build-*/
+
+# Ignora eventuali file temporanei o eseguibili
+*.exe
+*.o
+*.out
