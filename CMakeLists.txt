@@ -15,6 +15,5 @@ foreach(SRC_FILE ${SOURCES})
     get_filename_component(DIR_NAME ${DIR_PATH} NAME)
 
     # Crea un eseguibile chiamato "2026-11-02_indovina-numero"
-    add_executable("${DIR_NAME}_${EXE_NAME}" ${SRC_FILE}
-            sfida/incontri-ravvicinati.c)
+    add_executable("${DIR_NAME}_${EXE_NAME}" ${SRC_FILE})
 endforeach()
